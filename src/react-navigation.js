@@ -129,7 +129,7 @@ module.exports = {
     return require('react-navigation-stack').StackViewTransitionConfigs;
   },
   get SafeAreaView() {
-    return require('react-native-safe-area-view').default;
+    return require('./react-native-safe-area-view').default;
   },
   get SceneView() {
     return require('./views/SceneView').default;
